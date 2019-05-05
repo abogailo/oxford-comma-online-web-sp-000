@@ -1,3 +1,3 @@
 def oxford_comma(array)
- return array.to_list(:conj => true)
+ return array.join(:conj => true)
 end
